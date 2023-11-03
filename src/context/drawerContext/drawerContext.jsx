@@ -1,6 +1,5 @@
 import { createContext, useCallback, useContext, useState } from 'react';
 
-// Crie o contexto
 const DrawerContext = createContext();
 
 export const DrawerProvider = ({ children }) => {
